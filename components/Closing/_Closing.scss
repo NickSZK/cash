@@ -1,0 +1,40 @@
+.formsClosingDay  {
+   width: 380px;
+   height: auto;
+   padding: 24px;
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+   background-color: var(--bs-dark);
+   z-index: 50;
+}
+
+#closingFormDay h4 > #closeElementFormDay:hover {
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.closingDayForm > div.inputForm {
+   height: 48px; 
+}
+
+.inputValue {
+   padding: 4px 12px;
+}
+
+.calcCardText {
+   font-size: 12px;
+}
+
+.text-blue-mp {
+   color: var(--blue-mp);
+   font-weight: bold;
+}
+
+.text-yellow-ml {
+   color: var(--yellow-ml);
+   font-weight: bold;
+}
+
+.text-small {
+   font-size: 10px;
+}

@@ -1,0 +1,45 @@
+.managerSystem {
+   background-color: var(--bs-dark);
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+   z-index : 50;
+
+   ul {
+      list-style: none;
+      padding: 24px;
+      cursor: pointer;
+
+      li {
+         padding: 8px;
+         width: 100%;
+         border-left: 2px solid var(--fb1);
+         border-right: 2px solid var(--fb1);
+      }
+
+      li:first-child {
+         border-radius: 8px 8px 0 0;
+         border-top: 2px solid var(--fb1);
+      }
+
+      li:last-child {
+         border-radius: 0 0 8px 8px;
+         border-bottom: 2px solid var(--fb1);
+      }
+
+      li:nth-child(even) {
+         background-color: var(--bg-normal);
+      }
+
+      li:nth-child(even):hover {
+         background-color: #3E4042;
+      }
+
+      li:nth-child(odd) {
+         background-color: var(--bg-light);
+      }
+
+      li:nth-child(odd):hover {
+         background-color: #797C7C;
+      }
+   }
+}

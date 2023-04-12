@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+   width: 5px;
+   background-color: var(--bg-dark); // Background
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--bg-normal); // Cursor
+   border-radius: 8px;
+   scroll-behavior: smooth;
+}
+
+.containerCartList {
+   background-color: #363738;
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+
+   div div.borderFormDanger {
+      border: 2px solid var(--dark-blue);
+      border-radius: 8px;
+      padding: 8px;
+
+      // background-color: aquamarine;
+   }
+}
+
+
+.cartList {
+   ::-webkit-scrollbar {
+      width: 5px;
+      background-color: var(--bg-dark); // Background
+   }
+   
+   ::-webkit-scrollbar-thumb {
+      background-color: var(--bg-normal); // Cursor
+      border-radius: 8px;
+      scroll-behavior: smooth;
+   }
+
+   
+   // background-color: var(--fb1);
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+   overflow: auto;
+
+   .tableCartList {
+      width: 650px;
+      // overflow: auto;
+      // border-collapse: collapse;
+
+      tr, td {
+         @extend %flex;
+         width: 25%;
+         font-size: 12px;
+      }
+
+      td {
+         padding: 8px;
+      }
+
+      .itemName {
+         justify-content: space-between;
+      }
+      thead {
+         border-top-left-radius: 8px;
+         border-top-right-radius: 8px;
+      }
+
+      table, thead, tbody, tr, td {
+         text-align: center;
+      }
+
+      tr, tbody {
+         @extend %flex;
+         // @extend %sbt;
+         width: 100%;
+      }
+
+      tbody {
+         // overflow: scroll;
+         // height: 180px;
+      }
+
+      tbody tr {
+         color: var(--text);
+      }
+
+      tbody tr:nth-child(odd) {
+         // Impar
+         background-color: var(--bg-dark);
+
+         &:hover {
+            background-color: #797C7C;
+         }
+      }
+
+      tbody tr:nth-child(even) {
+         // Par
+         background-color: var(--bg-normal);
+
+         &:hover {
+            background-color: #3E4042;
+         }
+      }
+
+      tfoot {
+         background-color: var(--bs-secondary);
+         border-bottom-left-radius: 8px;
+         border-bottom-right-radius: 8px;
+
+      
+         p {
+            color: var(--dark-blue);
+            font-size: 24px;
+            font-weight: bold
+         }
+   
+         .cartListValue {
+            font-size: 24px;
+            font-weight: bold;
+         }
+         
+      }
+   }
+   
+}

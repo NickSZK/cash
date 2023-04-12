@@ -1,0 +1,57 @@
+
+::-webkit-scrollbar {
+   width: 5px;
+   background-color: var(--bg-dark); // Background
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--bg-normal); // Cursor
+   border-radius: 8px;
+   scroll-behavior: smooth;
+}
+h4 > div #closeFindProducts:hover {
+   border:50px solid yellow;
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+
+.tableFormList {
+   max-height: 330px;
+   border: 1px solid green;
+   overflow: auto;
+
+
+   #tableFindProduct {
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+
+      table, thead, tbody, tr, td {
+         border: 1px solid var(--bg-dark);
+      }
+
+      tbody tr:nth-child(odd) {
+         // Impar
+         background-color: var(--bg-light);
+
+         &:hover {
+            background-color: #797C7C;
+         }
+      }
+
+      tbody tr:nth-child(even) {
+         // Par
+         background-color: var(--bg-normal);
+
+         &:hover {
+            background-color: #3E4042;
+         }
+      }
+
+      td {
+         padding: 4px;
+      }
+   }
+
+}

@@ -1,0 +1,27 @@
+.footerSystem {
+   background-color: var(--bs-info);
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   // padding: 24px;
+   width: 100%;
+   height: 80px;
+
+   // .footerSystem {
+   //    background-color: var(--bs-info);
+   //    padding: 24px;
+   //    width: 100%;
+   //    height: 80px;
+   // }
+
+   .employeerFooterSystem {
+      background-color: var(--bs-secondary);
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      height: 100%;
+   }
+
+   .actionsFooterSystem button.btn {
+      font-size: 12px;
+   }
+}

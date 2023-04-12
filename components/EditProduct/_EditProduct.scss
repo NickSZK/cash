@@ -1,0 +1,11 @@
+.editProductForm h4 > #closeEditProduct:hover {
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.inputFindProduct {
+
+   &::placeholder {
+      text-align: center;
+   }
+}

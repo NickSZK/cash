@@ -1,0 +1,52 @@
+.borderForm {
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+   padding: 8px;
+}
+
+.borderFormFix {
+   border: 2px solid var(--fb1);
+   border-radius: 8px;
+   padding: 8px;
+   width: 150px;
+}
+
+.borderFormPrimary {
+   border: 2px solid var(--bs-primary);
+   border-radius: 8px;
+   padding: 8px;
+   // width: 150px;
+}
+
+.borderFormFixSuccess {
+   border: 2px solid var(--bs-success);
+   border-radius: 8px;
+   padding: 8px;
+   width: 150px;
+}
+
+.borderFormFixPix {
+   border: 2px solid var(--pix);
+   border-radius: 8px;
+   padding: 8px;
+   width: 150px;
+}
+
+.borderFormFixBlueMP {
+   border: 2px solid var(--blue-mp);
+   border-radius: 8px;
+   padding: 8px;
+   width: 150px;
+}
+
+.borderFormFixYellowML {
+   border: 2px solid var(--yellow-ml);
+   border-radius: 8px;
+   padding: 8px;
+   width: 150px;
+}
+
+.paymentForm h4 > #closePaymentForm:hover {
+   cursor: pointer;
+   opacity: 0.5;
+}

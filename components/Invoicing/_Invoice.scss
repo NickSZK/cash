@@ -1,0 +1,26 @@
+.invoicingOfTheDayForm > h4 > #closeElement:hover {
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.invoicingOfTheDayForm > div.inputForm {
+   height: 48px; 
+}
+
+.valueOfTheDay {
+   padding: 4px 12px;
+}
+
+.calcCardText {
+   font-size: 12px;
+}
+
+.text-blue-mp {
+   color: var(--blue-mp);
+   font-weight: bold;
+}
+
+.text-yellow-ml {
+   color: var(--yellow-ml);
+   font-weight: bold;
+}

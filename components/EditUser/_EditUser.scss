@@ -1,0 +1,11 @@
+.editUserForm h4 > #closeEditUser:hover {
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.inputFindUser {
+
+   &::placeholder {
+      text-align: center;
+   }
+}
